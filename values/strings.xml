@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WorldXplore</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_activity1">MainActivity1</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_intro">WorldXplore</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_track_location">TrackLocation</string>
+
+    <string-array name="tajmahal">
+        <item>Hotel Sheela!27.171259!78.044431</item>
+        <item>Hotel Shahjahan!27.169003!78.042026</item>
+        <item>The Oberoi Amarvilas!27.168800!78.047505</item>
+        <item>Hotel Sai Palace!27.168554!78.043140</item>
+        <item>Café Coffee Day!27.170493!78.043853</item>
+    </string-array>
+    <string-array name="qutbminar">
+        <item>Cotts Villa!28.510141!77.1629351</item>
+        <item>Beyond Hotel!28.538076!77.211119</item>
+        <item>Sage Hotel!28.532420!77.202279</item>
+        <item>Sheraton New Delhi Hotel!28.526840!77.215926</item>
+        <item>Qutab Residency!28.535789!77.197599</item>
+    </string-array>
+    <string-array name="redfort">
+        <item>Hotel Taj!28.650065!77.232311</item>
+        <item>Hotel QiK Stay at Emarald!28.632599!77.227258</item>
+        <item>Hotel Lav-Kush Deluxe!28.645761!77.217277</item>
+        <item>Hotel Ajanta!28.645765!77.215904</item>
+        <item>FabHotel Raj Paharganj!28.646011!77.214509</item>
+    </string-array>
+    <string-array name="lotustemple">
+        <item>Hotel Oakland!28.547141!77.2538936</item>
+        <item>Blue Stone Hotel!28.546653!77.253081</item>
+        <item>Hotel Stallen!28.547046!77.258826</item>
+        <item>Eros Hotel!28.550276!77.249175</item>
+        <item>FabHotel Majestic East of Kailash!28.558453!77.246953</item>
+    </string-array>
+    <string-array name="eiffeltower">
+        <item>Hôtel Eiffel Seine!48.854411!2.289327</item>
+        <item>La Bourdonnais!48.855000!2.304668</item>
+        <item>Hotel Le Derby Alma Paris!48.860566!2.300720</item>
+        <item>Hotel Le Walt Paris!48.854768!2.306657</item>
+        <item>BEST WESTERN Hôtel Eiffel Cambronne!48.845925!2.298320</item>
+    </string-array>
+    <string-array name="greatwallofchina">
+        <item>Brickyard Retreat at Mutianyu Great Wall!40.432104!116.564466</item>
+        <item>Home of the Great Wall!40.416950!116.551053</item>
+        <item>Huairou!40.293563!116.675777</item>
+        <item>7 Days Inn!40.178865!116.405494</item>
+        <item>Cineaste Garden Hotel!40.296646!116.673210</item>
+    </string-array>
+    <string-array name="britishmusem">
+        <item>The Montague on the Gardens!51.520202!-0.125705</item>
+        <item>Morgan Hotel!51.518093!-0.127627</item>
+        <item>hotel royal national!51.519863!-0.122582</item>
+        <item>The Imperial Hotel!51.521679!-0.124084</item>
+        <item>Tavistock Hotel!51.524233, -0.128196</item>
+    </string-array>
+    <string-array name="greatpyrmidofgiza">
+        <item>Mena House!29.985553!31.132957</item>
+        <item>Best View Pyramids Hotel!29.973812!31.142062</item>
+        <item>Grand Pyramids Hotel!29.988430!31.150880</item>
+        <item>Delta Pyramids Hotel!29.991348!31.137100</item>
+        <item>Cairo Pyramids Hotel - Steigenberger!29.992806!31.125771</item>
+    </string-array>
+
+    <string name="title_activity_place_details">PlaceDetailsActivity</string>
+
+</resources>
