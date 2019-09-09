@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAIN" >
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#56c1ff"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontalscroll1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp" >
+
+                        <LinearLayout
+                            android:id="@+id/scrollimages1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <ImageButton
+                                android:id="@+id/image1"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="tajmahal"
+                                android:src="@drawable/indiatajmahal" />
+
+                            <ImageButton
+                                android:id="@+id/image2"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="qutubminar"
+                                android:src="@drawable/qutubminardelhi" />
+
+                            <ImageButton
+                                android:id="@+id/image3"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="redfort"
+                                android:src="@drawable/redfort" />
+
+                            <ImageButton
+                                android:id="@+id/image4"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="lotustemple"
+                                android:src="@drawable/lotustem" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:background="@layout/layoutback" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp" >
+
+                            <TextView
+                                android:id="@+id/heading1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="40dp"
+                                android:text="Hello "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/message1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="50dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="30dp"
+                                android:text="    Welcome to world explorer.Here is the place you can check the tourist places in india.Please click any images above to view details"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                            
+                            <Button
+                                android:id="@+id/locaion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@layout/buttonshape"
+                                android:onClick="location"
+                                android:text="Location"
+                                android:textColor="#F5F5F5"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontalscroll2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp" >
+
+                        <LinearLayout
+                            android:id="@+id/scrollimages2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="10dp" >
+
+                            <ImageButton
+                                android:id="@+id/image5"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="eiffeltower"
+                                android:src="@drawable/eiffel" />
+
+                            <ImageButton
+                                android:id="@+id/image6"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="chinawall"
+                                android:src="@drawable/chinawall" />
+
+                            <ImageButton
+                                android:id="@+id/image7"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="britishmuseum"
+                                android:src="@drawable/britishmuseum" />
+
+                            <ImageButton
+                                android:id="@+id/image8"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:onClick="greatpyramid"
+                                android:src="@drawable/greatpyramid" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:background="@layout/layoutback" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/heading2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="40dp"
+                                android:text="Hello "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/message2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="50dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="30dp"
+                                android:text="    Welcome to world explorer.Here is the place you can check the tourist places in india.Please click any images above to view details"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/locaion1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@layout/buttonshape"
+                                android:onClick="location1"
+                                android:text="Location"
+                                android:textColor="#F5F5F5"
+                                android:textStyle="bold"
+                                android:visibility="invisible" />
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>
